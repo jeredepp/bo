@@ -28,5 +28,5 @@ In order to be able to work with coredumps we need to raise the ulimit
 ##gcc usage
 gcc must be run as follows (execstack has to be installed)
 
- 	gcc -fno-stack-protector -z execstack
+ 	$ gcc -fno-stack-protector -z execstack
 
