@@ -11,9 +11,12 @@ Debian Buffeoverflow example
 * python
 * execstack
 
+apt-get install gcc gdb nasm ld binutils pythin execstack
+
 ***
 
 # Configurations
+
 ##randomize_va_space
 In order to run this Demo you have to turn off virtual memory randomization
 
